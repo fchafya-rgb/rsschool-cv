@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(112, 130, 130, 0.733);
+    padding: 3%;
+}
+
+cv-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
