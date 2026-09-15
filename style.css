@@ -3,14 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;   /* на телефоне — в столбик */
+        gap: 20px;
+    }
+}
+background-color: rgba(15, 93, 17, 0.733);
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+}
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
 }
 
@@ -26,67 +38,72 @@ p {
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .about {
     display: flexbox;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
 }
 
 .skills {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
 }
 
 .codeex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
 }
 
 .experience {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
 }
 
 .education {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
 }
 
 .language {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
 }
 
@@ -97,11 +114,12 @@ a {
 
 .niz {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(105, 105, 105, 0.733);
+    background-color: rgba(15, 93, 17, 0.733);
     padding: 3%;
     
 }
