@@ -25,12 +25,22 @@ p {
     text-align: justify;
 }
 
-.sect {
+h2 {
     display: flex;
     justify-content: center;
 }
 
 .about {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(105, 105, 105, 0.733);
+    padding: 3%;
+}
+
+.skills {
     display: flexbox;
     justify-content: center;
     align-items: center;
