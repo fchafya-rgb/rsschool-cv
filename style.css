@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;   /* на телефоне — в столбик */
+        gap: 20px;
+    }
+}
+background-color: rgba(15, 93, 17, 0.733);
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+}
+
+cv-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+p {
+    text-indent: 20px; 
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+}
+
+.codeex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+}
+
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.niz {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(15, 93, 17, 0.733);
+    padding: 3%;
+    
+}
