@@ -41,7 +41,7 @@ h2 {
 }
 
 .skills {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
@@ -51,7 +51,7 @@ h2 {
 }
 
 .codeex {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .experience {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
@@ -71,7 +71,7 @@ h2 {
 }
 
 .education {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
@@ -81,11 +81,27 @@ h2 {
 }
 
 .language {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1%;
     gap: 60px;
     background-color: rgba(105, 105, 105, 0.733);
     padding: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.niz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(105, 105, 105, 0.733);
+    padding: 3%;
+    
 }
