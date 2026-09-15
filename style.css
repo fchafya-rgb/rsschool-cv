@@ -10,7 +10,7 @@ header {
     align-items: center;
     margin-top: 1%;
     gap: 60px;
-    background-color: rgba(112, 130, 130, 0.733);
+    background-color: rgba(105, 105, 105, 0.733);
     padding: 3%;
 }
 
@@ -18,4 +18,24 @@ cv-photo {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+p {
+    text-indent: 20px; 
+    text-align: justify;
+}
+
+.sect {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 60px;
+    background-color: rgba(105, 105, 105, 0.733);
+    padding: 3%;
 }
